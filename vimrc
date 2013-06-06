@@ -1,6 +1,7 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
-colorscheme default
 call pathogen#infect()
+set background=dark
+colorscheme solarized
 
 filetype on
 filetype indent on

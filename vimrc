@@ -19,7 +19,18 @@ set smartcase
 set incsearch
 set relativenumber
 set ruler
+set splitbelow
+set splitright
 
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 autocmd VimEnter * :IndentGuidesEnable
+autocmd VimEnter * NERDTree
+map <C-Left> <Esc>:tabprev<CR>
+map <C-Right> <Esc>:tabnext<CR>
+map <C-n> <Esc>:tabnew
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+

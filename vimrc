@@ -3,6 +3,16 @@ call pathogen#infect()
 set background=dark
 colorscheme solarized
 
+set guifont=Inconsolata\ for\ Powerline\ 10
+set encoding=utf-8
+set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
+let g:airline_powerline_fonts = 1
+set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
+
 filetype on
 filetype indent on
 filetype plugin on
@@ -26,8 +36,8 @@ autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 autocmd VimEnter * :IndentGuidesEnable
 autocmd VimEnter * NERDTree
-map <C-Left> <Esc>:tabprev<CR>
-map <C-Right> <Esc>:tabnext<CR>
+map <C-Left> <Esc>:bp<CR>
+map <C-Right> <Esc>:bn<CR>
 map <C-n> <Esc>:tabnew
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>

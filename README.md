@@ -5,3 +5,9 @@ Cause everyone else does it.
 `
 git submodule add <url> vim/bundle/<name>
 `
+
+### Updated submodules
+
+`
+git submodule foreach git pull
+`

@@ -27,13 +27,14 @@ set hlsearch
 set ignorecase
 set smartcase
 set incsearch
-set relativenumber
+set number
+" set relativenumber
 set ruler
 set splitbelow
 set splitright
 
 autocmd InsertEnter * :set number
-autocmd InsertLeave * :set relativenumber
+" autocmd InsertLeave * :set relativenumber
 autocmd VimEnter * :IndentGuidesEnable
 autocmd VimEnter * NERDTree
 map <C-Left> <Esc>:bp<CR>
@@ -43,4 +44,3 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-

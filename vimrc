@@ -37,6 +37,8 @@ autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 autocmd VimEnter * :IndentGuidesEnable
 autocmd VimEnter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 map <C-Left> <Esc>:bp<CR>
 map <C-Right> <Esc>:bn<CR>
 map <C-n> <Esc>:tabnew

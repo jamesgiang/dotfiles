@@ -24,11 +24,11 @@ set hlsearch
 set ignorecase
 set smartcase
 set incsearch
-set number
 set relativenumber
 set ruler
 set splitbelow
 set splitright
+set autoread
 
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
@@ -38,6 +38,7 @@ map <C-Left> <Esc>:bp<CR>
 map <C-Right> <Esc>:bn<CR>
 map <C-n> <Esc>:tabnew
 nmap <F8> :TagbarToggle<CR>
+nmap <F7> :NERDTreeToggle<CR>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>

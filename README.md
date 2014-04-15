@@ -1,13 +1,20 @@
 Cause everyone else does it.
+### Depedencies 
+
+ctags required for tagbar
+
+`
+brew install ctags
+`
 
 ### Installing new plugins
 
 `
-git submodule add <url> vim/bundle/<name>
+$ ./add.sh
 `
 
 ### Updated submodules
 
 `
-git submodule foreach git pull
+$ ./update.sh
 `

@@ -46,3 +46,6 @@
 [submodule "vim/bundle/MatchTagAlways"]
 	path = vim/bundle/MatchTagAlways
 	url = git@github.com:Valloric/MatchTagAlways.git
+[submodule "fonts"]
+	path = fonts
+	url = git@github.com:Lokaltog/powerline-fonts.git

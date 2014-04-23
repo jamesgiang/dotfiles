@@ -49,3 +49,6 @@
 [submodule "fonts"]
 	path = fonts
 	url = git@github.com:Lokaltog/powerline-fonts.git
+[submodule "vim/bundle/YouCompleteMe"]
+	path = vim/bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git

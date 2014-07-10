@@ -1,0 +1,20 @@
+#!/bin/bash
+# Brew Install
+
+if [ $1 == "cask" ]; then
+  brew cask install $2
+  if grep -q "^cask install $2$" ~/github/dotfiles/Brewfile; then
+    echo "Already in brewfile, skip adding"
+  else
+    echo "Adding to brewfile..."
+    echo 'cask install '$2 >> ~/github/dotfiles/Brewfile
+  fi
+else
+  brew install $1
+  if grep -q "^install $1$" ~/github/dotfiles/Brewfile; then
+    echo "Already in brewfile, skip adding"
+  else
+    echo "Adding to brewfile..."
+    echo 'install '$1 >> ~/github/dotfiles/Brewfile
+  fi
+fi

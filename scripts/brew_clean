@@ -1,14 +1,15 @@
 #!/bin/bash
 # Brew Clean
-
+BREW_PATH=~/github/dotfiles/Brewfile
+echo $BREW_PATH
 if [ $1 == "cask" ]; then
   brew cask uninstall $2
   echo "Removing from brewfile..."
-  grep -v "^cask install $2$" ~/github/dotfiles/Brewfile > ~/github/dotfiles/Brewfile.tmp
+  grep -v "^cask install $2$" $BREW_PATH > $BREW_PATH.tmp
 else
   brew uninstall $1
   brew uninstall $(join <(brew leaves) <(brew deps $1))
   echo "Removing from brewfile..."
-  grep -v "^install $1$" ~/github/dotfiles/Brewfile > ~/github/dotfiles/Brewfile.tmp
+  grep -v "^install $1$" $BREW_PATH > $BREW_PATH.tmp
 fi
-mv ~/github/dotfiles/Brewfile.tmp ~/github/dotfiles/Brewfile
+mv $BREW_PATH.tmp $BREW_PATH

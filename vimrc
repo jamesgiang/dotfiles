@@ -18,7 +18,6 @@ set fillchars+=stl:\ ,stlnc:\
 set title
 set hidden
 set vb
-set showmatch
 
 " Backups
 set nobackup

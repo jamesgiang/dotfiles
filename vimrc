@@ -58,8 +58,6 @@ let g:tagbar_ctags_bin = "/usr/local/bin/ctags"
 " Key bindings
 map <C-Left> <Esc>:bp<CR>
 map <C-Right> <Esc>:bn<CR>
-map j gj
-map k gk
 map <space> /
 map <C-J> <C-W>j
 map <C-K> <C-W>k

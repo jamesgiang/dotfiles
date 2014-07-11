@@ -18,6 +18,11 @@ set fillchars+=stl:\ ,stlnc:\
 set title
 set hidden
 set vb
+set wildignore+=*.a,*.pyc,*.o,*.orig
+set wildignore+=*.bmp,*.gif,*.ico,*.jpg,*.jpeg,*.png
+set wildignore+=.DS_Store,.git,.hg,.svn
+set wildignore+=*~,*.sw?,*.tmp
+set wildignore+=**/node_modules/*,**/bower_components/*
 
 " Backups
 set nobackup

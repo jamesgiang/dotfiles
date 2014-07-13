@@ -1,5 +1,5 @@
 Cause everyone else does it.
-### Depedencies 
+### Depedencies
 
 ctags required for tagbar
 

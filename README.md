@@ -19,20 +19,14 @@ MacVim required for YouCompleteMe
 brew install macvim --override-system-vim
 `
 
-Update bash_profile to include
+### Installing new vim plugins
 
 `
-alias vim='mvim -v'
-`
-
-### Installing new plugins
-
-`
-$ ./add.sh
+$ ./dotfiles add
 `
 
 ### Updated submodules
 
 `
-$ ./update.sh
+$ ./dotfiles update
 `

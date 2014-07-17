@@ -1,2 +1,3 @@
-alias vim='mvim -v';
+alias vim="mvim -v";
 alias ls="ls -G"
+alias gitk="git log --graph --abbrev-commit --pretty=oneline --decorate";

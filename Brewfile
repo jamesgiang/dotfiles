@@ -44,3 +44,4 @@ cask install virtualbox
 cask install vlc
 cask install minecraft
 cask install mou
+install cowsay

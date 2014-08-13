@@ -45,3 +45,5 @@ cask install vlc
 cask install minecraft
 cask install mou
 install cowsay
+install git-cal
+install awscli

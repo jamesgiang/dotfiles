@@ -73,3 +73,6 @@
 [submodule "vim/bundle/crunch.vim"]
 	path = vim/bundle/crunch.vim
 	url = git@github.com:arecarn/crunch.vim.git
+[submodule "vim/bundle/grep.vim"]
+	path = vim/bundle/grep.vim
+	url = git@github.com:vim-scripts/grep.vim.git

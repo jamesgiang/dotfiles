@@ -47,3 +47,5 @@ cask install mou
 install cowsay
 install git-cal
 install awscli
+install portaudio
+install mpg123

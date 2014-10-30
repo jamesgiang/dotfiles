@@ -49,3 +49,5 @@ install git-cal
 install awscli
 install portaudio
 install mpg123
+install sl
+install gti

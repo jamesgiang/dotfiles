@@ -13,6 +13,7 @@ case "$1" in
     rm ~/.path
     rm ~/.aliases
     rm ~/.git-completion
+    rm ~/.inputrc
     rm -rf ~/.vim
     rm ~/bin/brew_clean
     rm ~/bin/brew_install
@@ -25,6 +26,7 @@ case "$1" in
     ln -s ~/github/dotfiles/.path ~/.path
     ln -s ~/github/dotfiles/.aliases ~/.aliases
     ln -s ~/github/dotfiles/.git-completion ~/.git-completion
+    ln -s ~/github/dotfiles/.inputrc ~/.inputrc
     ln -s ~/github/dotfiles/vim ~/.vim
     ln -s ~/github/dotfiles/scripts/brew_clean ~/bin/brew_clean
     ln -s ~/github/dotfiles/scripts/brew_install ~/bin/brew_install

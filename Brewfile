@@ -53,3 +53,4 @@ install sl
 install gti
 install bash
 install screenfetch
+install phantomjs

@@ -54,3 +54,4 @@ install gti
 install bash
 install screenfetch
 install phantomjs
+install wget

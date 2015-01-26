@@ -55,3 +55,4 @@ install bash
 install screenfetch
 install phantomjs
 install wget
+install redis

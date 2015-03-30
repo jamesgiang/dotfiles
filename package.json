@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "gulp": "*",
+    "coffee-script": "*",
+    "bower": "*",
+    "npm": "*",
+    "npm-check-updates": "*",
+    "parker": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jamesgiang/dotfiles.git"
+  }
+}
+

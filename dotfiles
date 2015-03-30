@@ -49,8 +49,12 @@ case "$1" in
     echo "build YCM"
     cd vim/bundle/YouCompleteMe
     git submodule update --init --recursive
+    ./install.sh
     echo "Update gems"
     bundle update
+    sudo gem cleanup
+    echo "Update Brew"
+    brew update
     echo "Update finished"
     ;;
   *)

@@ -46,6 +46,9 @@ case "$1" in
     echo "Update starting"
     echo "fetch submodules"
     git submodule foreach git pull origin master --recurse-submodules
+    echo "git commit"
+    git add vim
+    git commit
     echo "build YCM"
     cd vim/bundle/YouCompleteMe
     git submodule update --init --recursive

@@ -49,10 +49,6 @@ case "$1" in
     echo "git commit"
     git add vim
     git commit
-    echo "build YCM"
-    cd vim/bundle/YouCompleteMe
-    git submodule update --init --recursive
-    ./install.sh
     echo "Update gems"
     bundle update
     sudo gem cleanup

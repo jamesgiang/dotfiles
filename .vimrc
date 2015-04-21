@@ -60,8 +60,6 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:tagbar_ctags_bin = "/usr/local/bin/ctags"
 let g:ctrlp_map = '<Space>'
-let g:ycm_min_num_of_chars_for_completion = 99
-let g:ycm_key_invoke_completion = '<Tab>'
 " Key bindings
 map <C-Left> <Esc>:bp<CR>
 map <C-Right> <Esc>:bn<CR>

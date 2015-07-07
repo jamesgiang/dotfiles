@@ -10,3 +10,4 @@ alias gs="git status"
 alias gpo="git push origin master:master develop:develop --tags"
 alias phplog="grc tail -f /Applications/MAMP/logs/php_error.log"
 alias mysqllog="grc tail -f /Applications/MAMP/logs/mysql_error_log.err"
+alias fuck='eval $(thefuck $(fc -ln -1)); history -r'

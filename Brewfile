@@ -31,6 +31,9 @@ install screenfetch
 install phantomjs
 install wget
 install redis
+install thefuck
+install ngrok
+install htop
 cask install alfred
 cask install appcleaner
 cask install cyberduck
@@ -56,3 +59,5 @@ cask install minecraft
 cask install mou
 cask install 1password
 cask install temperature-monitor
+cask install vagrant
+cask install atom

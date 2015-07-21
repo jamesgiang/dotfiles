@@ -61,3 +61,6 @@ cask install 1password
 cask install temperature-monitor
 cask install vagrant
 cask install atom
+cask install paw
+cask install freemind
+cask install ccleaner

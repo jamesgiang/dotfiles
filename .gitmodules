@@ -76,3 +76,6 @@
 [submodule "vim/bundle/vim-hackernews"]
 	path = vim/bundle/vim-hackernews
 	url = https://github.com/ryanss/vim-hackernews.git
+[submodule "vim/bundle/vim-reddit"]
+	path = vim/bundle/vim-reddit
+	url = https://github.com/joshhartigan/vim-reddit

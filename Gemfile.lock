@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     audite (0.4.0)
-    chunky_png (1.3.4)
+    chunky_png (1.3.5)
     compass (1.0.3)
       chunky_png (~> 1.2)
       compass-core (~> 1.0.2)
@@ -18,10 +18,10 @@ GEM
     ffi (1.9.10)
     json (1.8.3)
     multi_json (1.11.2)
-    rb-fsevent (0.9.5)
-    rb-inotify (0.9.5)
+    rb-fsevent (0.9.7)
+    rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    sass (3.4.16)
+    sass (3.4.22)
     soundcloud2000 (0.1.0)
       audite
       json
@@ -33,3 +33,6 @@ DEPENDENCIES
   compass
   sass
   soundcloud2000
+
+BUNDLED WITH
+   1.10.6

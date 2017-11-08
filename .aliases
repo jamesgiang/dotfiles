@@ -8,6 +8,7 @@ alias ..4="cd ../../../.."
 alias ..5="cd ../../../../.."
 alias gs="git status"
 alias gpo="git push origin master:master develop:develop --tags"
+alias gpa="git checkout develop;git pull origin develop;git checkout master; git pull origin master;git checkout develop;"
 alias phplog="grc tail -f /Applications/MAMP/logs/php_error.log"
 alias mysqllog="grc tail -f /Applications/MAMP/logs/mysql_error_log.err"
 alias fuck='eval $(thefuck $(fc -ln -1)); history -r'

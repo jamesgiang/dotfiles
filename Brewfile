@@ -65,3 +65,10 @@ cask install slack
 cask install d234j-xbox360-controller-driver
 install c2048
 install letsencrypt
+install homebrew/binary/ngrok2
+install phpcs
+install composer
+install mysql
+install pdftk
+install wrk2
+install wrk

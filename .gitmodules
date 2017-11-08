@@ -79,3 +79,6 @@
 [submodule "vim/bundle/vim-reddit"]
 	path = vim/bundle/vim-reddit
 	url = https://github.com/joshhartigan/vim-reddit
+[submodule "vim/bundle/vim-javascript"]
+	path = vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
